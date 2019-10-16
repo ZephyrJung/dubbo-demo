@@ -1,0 +1,2 @@
+MichelinWheelMaker=org.zephyr.rpc.dubboDemo.service.impl.MichelinWheelMaker
+ZephyrWheelMaker=org.zephyr.rpc.dubboDemo.service.impl.ZephyrWheelMaker

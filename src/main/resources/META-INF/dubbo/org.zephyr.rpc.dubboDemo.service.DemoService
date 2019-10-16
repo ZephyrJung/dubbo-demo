@@ -1,0 +1,2 @@
+demo1=org.zephyr.rpc.dubboDemo.service.impl.DemoServiceImpl
+demo2=org.zephyr.rpc.dubboDemo.service.impl.DemoServiceImpl2
