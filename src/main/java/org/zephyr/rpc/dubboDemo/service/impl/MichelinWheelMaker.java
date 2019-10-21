@@ -13,4 +13,9 @@ public class MichelinWheelMaker implements WheelMaker {
     public Wheel makeWheel(URL url) {
         return new Wheel("Michelin", 19);
     }
+
+    @Override
+    public Wheel makeWheel() {
+        return null;
+    }
 }

@@ -29,4 +29,9 @@ public class AdaptiveWheelMaker implements WheelMaker {
         // 3.调用目标方法
         return wheelMaker.makeWheel(url);
     }
+
+    @Override
+    public Wheel makeWheel() {
+        return null;
+    }
 }

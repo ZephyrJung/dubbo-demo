@@ -13,4 +13,9 @@ public class ZephyrWheelMaker implements WheelMaker {
     public Wheel makeWheel(URL url) {
         return new Wheel("Zephyr", 18);
     }
+
+    @Override
+    public Wheel makeWheel() {
+        return new Wheel("Zephyr", 18);
+    }
 }
