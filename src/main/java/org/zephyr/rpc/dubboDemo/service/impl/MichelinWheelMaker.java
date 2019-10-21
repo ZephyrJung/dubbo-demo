@@ -15,7 +15,7 @@ public class MichelinWheelMaker implements WheelMaker {
     }
 
     @Override
-    public Wheel makeWheel() {
+    public String getWheelName(URL url) {
         return null;
     }
 }

@@ -31,7 +31,7 @@ public class AdaptiveWheelMaker implements WheelMaker {
     }
 
     @Override
-    public Wheel makeWheel() {
+    public String getWheelName(URL url) {
         return null;
     }
 }

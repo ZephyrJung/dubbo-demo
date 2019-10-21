@@ -11,8 +11,9 @@ import org.zephyr.rpc.dubboDemo.service.model.Wheel;
  */
 @SPI
 public interface WheelMaker {
+    @Adaptive("wheel.maker")
     Wheel makeWheel(URL url);
 
-    @Adaptive("ZephyrWheelMaker")
-    Wheel makeWheel();
+    @Adaptive("wheel.name")
+    String getWheelName(URL url);
 }

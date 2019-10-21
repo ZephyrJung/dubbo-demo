@@ -15,7 +15,7 @@ public class ZephyrWheelMaker implements WheelMaker {
     }
 
     @Override
-    public Wheel makeWheel() {
-        return new Wheel("Zephyr", 18);
+    public String getWheelName(URL url) {
+        return "Zephyr";
     }
 }

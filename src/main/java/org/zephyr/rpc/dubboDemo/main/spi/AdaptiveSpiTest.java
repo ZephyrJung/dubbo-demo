@@ -27,9 +27,9 @@ public class AdaptiveSpiTest {
         WheelMaker wheelMaker = extensionLoader.getAdaptiveExtension();
         Map<String, String> map = new HashMap<>();
         map.put("wheel.maker", "MichelinWheelMaker");
+        map.put("wheel.name", "ZephyrWheelMaker");
         Wheel wheel = wheelMaker.makeWheel(new URL("dubbo", "192.168.0.101", 20880, "XxxService", map));
         System.out.println(wheel);
-        wheel = wheelMaker.makeWheel();
-        System.out.println(wheel);
+        System.out.println(wheelMaker.getWheelName(new URL("dubbo", "192.168.0.101", 20880, "XxxService", map)));
     }
 }
